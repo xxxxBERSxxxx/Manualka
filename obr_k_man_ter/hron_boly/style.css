@@ -1,0 +1,192 @@
+body{
+
+}
+h1, h2, h3, p, ul, li, details{
+ font-family: "Play", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+
+#div_osn{
+width: 80%;
+ height: auto;
+ margin: 0 auto;
+  padding-top: 60px;  
+}
+#div_osn h1{
+    text-align: center;
+   color: #008489;
+}
+#div_osn h2{
+    text-align: center;
+    color: #008489;
+}
+#zacluchenie{
+  background-color: #06858E;
+   padding: 5%;
+    text-align: center;
+    color: white;
+}
+#div_osn ul{
+ color: #008489;
+}
+
+#div_osn li{
+color: black;
+}
+
+#kar_1{
+    float: right;
+    width: 40%;
+}
+#kar_2{
+    float: left;
+    width: 40%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+
+
+
+/*-------------------*/
+         /*@media*/
+/*-------------------*/
+
+@media (min-width: 1600px){
+#div_osn{
+   width: 78%;
+    height:auto;
+    margin-left: 4%;
+}
+ #zacluchenie{
+  width: 82%;
+    height:auto;
+    
+}   
+}
+
+/*-------------------*/
+/*НОутбук*/
+/*-------------------*/
+
+@media (min-width: 769px) and (max-width: 992px) {
+   
+}
+
+/*-------------------*/
+/*планшет*/
+/*-------------------*/
+
+@media (min-width: 577px) and (max-width: 768px) {  
+    #div_osn{
+text-align: justify;
+ padding: 0; 
+   
+}
+ #kar_1{
+    width: 100%;
+     margin-bottom: 5%;
+}   
+    #kar_2{
+  width: 100%;
+     margin-bottom: 5%;
+}
+    #div_osn p{
+  padding: 3%;      
+    }
+    #div_osn ul{
+ padding: 6%;
+}
+    
+ #zacluchenie{
+  background-color: #00a2a8;
+   padding: 5%;
+    text-align: justify;
+   
+}  
+     #zacluchenie h2{
+    text-align: center;
+   
+} 
+}
+
+/*-------------------*/
+/*МОБИЛЫ*/
+/*-------------------*/
+
+@media (min-width: 376px) and (max-width: 576px) {
+  #div_osn{
+text-align: justify;
+ padding: 0; 
+   
+}
+ #kar_1{
+    width: 100%;
+     margin-bottom: 5%;
+}   
+    #kar_2{
+  width: 100%;
+     margin-bottom: 5%;
+}
+    #div_osn p{
+  padding: 3%;      
+    }
+    #div_osn ul{
+ padding: 6%;
+}
+    
+ #zacluchenie{
+  background-color: #00a2a8;
+   padding: 5%;
+    text-align: justify;
+   
+}  
+     #zacluchenie h2{
+    text-align: center;
+   
+} 
+}
+
+
+/*-------------------*/
+/*МОБИЛЫ вертикальные*/
+/*-------------------*/
+
+@media (min-width: 300px) and (max-width: 375px) {
+#div_osn{
+text-align: justify;
+ padding: 0; 
+}
+ #kar_1{
+    width: 100%;
+     margin-bottom: 5%;
+}   
+    #kar_2{
+  width: 100%;
+     margin-bottom: 5%;
+}
+    #div_osn p{
+  padding: 3%;      
+    }
+    #div_osn ul{
+ padding: 6%;
+}
+    
+ #zacluchenie{
+  background-color: #00a2a8;
+   padding: 5%;
+    text-align: justify;
+   
+}  
+     #zacluchenie h2{
+    text-align: center;
+   
+} 
+}
+
+
+
+

@@ -1,0 +1,124 @@
+body{
+  
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+ 
+}
+
+#div_osn{
+width: 80%;
+ height: auto;
+ margin: 0 auto;
+  padding-top: 80px; 
+ padding-bottom: 5%;  
+}
+img{
+    float: right;
+    width: 420px;
+    margin: 2%;
+}
+h1, h2{
+    text-align: center;
+    color: #017f96;
+    
+
+}
+strong{
+ color: #017f96;   
+}
+
+
+
+
+
+
+
+/*-------------------*/
+         /*@media*/
+/*-------------------*/
+
+@media (min-width: 1600px){
+#div_osn{
+      width: 78%;
+    height:auto;
+    margin-left: 4%;
+}
+ img{
+    float: right;
+    width: 520px;
+    margin: 2%;
+}   
+}
+
+/*-------------------*/
+/*НОутбук*/
+/*-------------------*/
+
+@media (min-width: 769px) and (max-width: 992px) {
+  img{
+    float: right;
+    width: 340px;
+    margin: 2%;
+} 
+}
+
+/*-------------------*/
+/*планшет*/
+/*-------------------*/
+
+@media (min-width: 577px) and (max-width: 768px) {  
+     img{
+    float: right;
+    width: 300px;
+    margin: 2%;
+}
+}
+
+/*-------------------*/
+/*МОБИЛЫ*/
+/*-------------------*/
+
+@media (min-width: 376px) and (max-width: 576px) {
+  img{
+    float: none;
+    width: 100%;
+    margin: 2%;
+} 
+ #div_osn{
+width: 98%;
+ height: auto;
+ margin: 0 auto;
+  padding-top: 80px; 
+ padding-bottom: 5%;
+ padding-left: 2%;
+ padding-right: 2%;    
+}   
+}
+
+
+/*-------------------*/
+/*МОБИЛЫ вертикальные*/
+/*-------------------*/
+
+@media (min-width: 300px) and (max-width: 375px) {
+   img{
+    float: none;
+    width: 100%;
+    margin: 2%;
+}
+     #div_osn{
+width: 98%;
+ height: auto;
+ margin: 0 auto;
+  padding-top: 80px; 
+ padding-bottom: 5%;
+ padding-left: 1%;
+ padding-right: 1%;    
+}
+}
+
+
+
+

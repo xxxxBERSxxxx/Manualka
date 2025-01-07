@@ -1,0 +1,201 @@
+body{
+
+}
+h1, h2, h3, p, ul, li, details{
+ font-family: "Play", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+#div_osn{
+width: 80%;
+ height: auto;
+ margin: 0 auto;
+  padding-top: 60px; 
+}
+h2, h1{
+    text-align: center;
+}
+h2{
+    color: #006fa0;
+}
+
+#img_kinez{
+    background-image: url(kinez1.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    margin-bottom: 4%;
+}
+#img_kinez h1{
+    color: white;
+    padding: 2%;
+-webkit-text-shadow: 0px 0px 17px rgba(0, 0, 0, 1);
+-moz-text-shadow: 0px 0px 17px rgba(0, 0, 0, 1);
+text-shadow: 0px 0px 17px rgba(0, 0, 0, 1);
+}
+
+#img_kinez2{
+    background-image: url(kinez2.png);
+    width: 81%;
+    height: 400px;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 3%;
+}
+#img_kinez3{
+    background-image: url(kinez3.jpg);
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------*/
+         /*@media*/
+/*-------------------*/
+
+@media (min-width: 1600px){
+#div_osn{
+      width: 78%;
+    height:auto;
+    margin-left: 4%;
+}
+ #img_kinez{
+   width: 100%;
+    height: 500px; 
+}
+
+#img_kinez2{
+ width: 100%;
+    height: 500px;
+}
+#img_kinez3{
+    width: 100%;
+    height: 500px;
+}   
+}
+
+/*-------------------*/
+/*НОутбук*/
+/*-------------------*/
+
+@media (min-width: 769px) and (max-width: 992px) {
+   
+}
+
+/*-------------------*/
+/*планшет*/
+/*-------------------*/
+
+@media (min-width: 577px) and (max-width: 768px) {  
+
+h1, h2, h3, p, ul{
+ margin-left: 2%;
+margin-right: 2%;
+    }
+    
+ #div_osn{
+width: 100%;
+ height: auto;
+ margin: 0 auto;
+  padding-top: 50px;   
+}   
+   #img_kinez{
+   width: 100%;
+    height: 300px; 
+}
+
+#img_kinez2{
+ width: 100%;
+    height: 300px;
+}
+#img_kinez3{
+    width: 100%;
+    height: 300px;
+}  
+}
+
+/*-------------------*/
+/*МОБИЛЫ*/
+/*-------------------*/
+
+@media (min-width: 376px) and (max-width: 576px) {
+  h1, h2, h3, p, ul{
+ margin-left: 2%;
+margin-right: 2%;
+    }
+    
+ #div_osn{
+width: 100%;
+ height: auto;
+ margin: 0 auto;
+  padding-top: 50px;   
+}   
+   #img_kinez{
+   width: 100%;
+    height: 260px; 
+}
+
+#img_kinez2{
+ width: 100%;
+    height: 260px;
+}
+#img_kinez3{
+    width: 100%;
+    height: 260px;
+} 
+}
+
+
+/*-------------------*/
+/*МОБИЛЫ вертикальные*/
+/*-------------------*/
+
+@media (min-width: 300px) and (max-width: 375px) {
+   h1, h2, h3, p, ul{
+ margin-left: 4%;
+margin-right: 4%;
+    }
+#img_kinez h1{
+    color: white;
+    padding: 2%;
+font-size: 22px;
+}   
+ #div_osn{
+width: 100%;
+ height: auto;
+ margin: 0 auto;
+  padding-top: 50px;   
+}   
+   #img_kinez{
+   width: 100%;
+    height: 240px; 
+}
+
+#img_kinez2{
+ width: 100%;
+    height: 240px;
+}
+#img_kinez3{
+    width: 100%;
+    height: 240px;
+}
+}
+
+
+
+

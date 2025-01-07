@@ -1,0 +1,203 @@
+
+h1, h2, h3, p, ul, li, details{
+ font-family: "Play", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+#div1{
+    width: 100%;
+    padding: 0;
+    height: auto;
+    margin: 0 auto;
+/*    border: 1px solid black;*/
+  
+}
+#div1 h1{
+   
+    padding: 15% 5% 5% 5%;
+     text-align: center;
+   
+}
+#div1 h2{
+    padding-top: 3%;
+     text-align: center;
+}
+#div1 p{
+    padding: 3%;
+}
+#div1 ul{
+    width: 90%;
+    margin: 2% auto;
+     background-color: #047B8B;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    padding-left: 0;
+    border: 1px solid white;
+    
+}
+#div1 li{
+  width: 50%;
+  margin-top: 2%;
+    padding: 1%;
+    display: flex;
+justify-content: center;
+   border: 1px solid white;  
+}
+
+#kar1{
+    width: 90%;
+    background-image: url(kar_2.png);
+    height: 500px;
+margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+    padding: 3%;
+}
+
+
+
+
+
+
+
+
+
+/*-------------------*/
+         /*@media*/
+/*-------------------*/
+
+@media (min-width: 1600px){
+#div1{
+     width: 80%;
+    height:auto;
+    margin-left: 4%;
+}
+   
+}
+
+/*-------------------*/
+/*НОутбук*/
+/*-------------------*/
+
+@media (min-width: 769px) and (max-width: 992px) {
+    #div1 ul{
+        width: 100%;
+    
+    } 
+    #div1 li{
+     text-align: center;  
+        height: 50px;
+        display: flex;
+        align-items: center;
+    }
+}
+
+/*-------------------*/
+/*планшет*/
+/*-------------------*/
+
+@media (min-width: 577px) and (max-width: 768px) {  
+    #div1 ul{
+        width: 100%;
+    
+    } 
+    #div1 li{
+     text-align: center;  
+        height: 50px;
+        display: flex;
+        align-items: center;
+    }  
+}
+
+/*-------------------*/
+/*МОБИЛЫ*/
+/*-------------------*/
+
+@media (min-width: 376px) and (max-width: 576px) {
+  #div1 ul{
+    width: 100%;
+    margin: 0;
+      padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    
+}  
+ #div1 li{
+  width: 100%;
+  margin-top: 2%;
+    display: flex;
+justify-content: center;
+align-items: center;    
+} 
+#div1 p{
+   width: 100%;
+    padding: 3%;
+    text-align: start ; 
+}
+#div1 ul{
+  text-align: center;
+    padding: 1%;
+    } 
+        #kar1{
+    width: 100%;
+    height: 300px;
+
+}
+}
+
+
+/*-------------------*/
+/*МОБИЛЫ вертикальные*/
+/*-------------------*/
+
+@media (min-width: 300px) and (max-width: 375px) {
+  #div1 ul{
+    width: 100%;
+    margin: 0;
+      padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    
+}  
+ #div1 li{
+  width: 100%;
+  margin-top: 2%;
+    display: flex;
+justify-content: center;
+align-items: center;    
+} 
+#div1 p{
+   width: 100%;
+    padding: 3%;
+    text-align: start ; 
+}
+#div1 ul{
+  text-align: center;
+    padding: 1%;
+    } 
+    
+    #kar1{
+    width: 100%;
+    height: 300px;
+
+}
+}
+
+
+
+

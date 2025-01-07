@@ -1,0 +1,109 @@
+h1, h2, h3, p, ul, li, details{
+ font-family: "Play", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+#div_osn{
+border-bottom: 2px solid #037381;
+    
+}
+#div_osn h1{
+  color: #037381;
+    text-align: center;
+}
+#div_osn h2{
+margin-top: 5%; 
+    text-align: center;
+    color: #037381;
+}
+
+#div_osn p{
+padding-left: 5%;
+padding-right: 5%;
+}
+#div_osn ul{
+padding-left: 5%;
+padding-right: 5%;
+    
+}
+#div_osn li{
+
+}
+#img_1{
+    width: 100%;
+    height: auto;
+   background-position: center;
+    background-size: cover;
+    margin-bottom: 5%;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+/*-------------------*/
+         /*@media*/
+/*-------------------*/
+
+@media (min-width: 1600px){
+#div_osn{
+      width: 78%;
+    height:auto;
+    margin-left: 4%;
+}
+    
+}
+
+/*-------------------*/
+/*НОутбук*/
+/*-------------------*/
+
+@media (min-width: 769px) and (max-width: 992px) {
+   
+}
+
+/*-------------------*/
+/*планшет*/
+/*-------------------*/
+
+@media (min-width: 577px) and (max-width: 768px) {  
+   
+}
+
+/*-------------------*/
+/*МОБИЛЫ*/
+/*-------------------*/
+
+@media (min-width: 376px) and (max-width: 576px) {
+    #img_1{
+ margin-top: 50px;
+}  
+  #div_osn ul{
+padding-left: 10%;    
+}
+}
+
+
+/*-------------------*/
+/*МОБИЛЫ вертикальные*/
+/*-------------------*/
+
+@media (min-width: 300px) and (max-width: 375px) {
+  #img_1{
+ margin-top: 50px;
+}  
+  #div_osn ul{
+padding-left: 10%;    
+}  
+    
+}
+
+
+
+

@@ -1,0 +1,111 @@
+body{
+  
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+ 
+  
+    
+}
+
+#div_osn{
+width: 80%;
+ height: auto;
+ margin: 0 auto;
+  padding-top: 60px; 
+padding-bottom: 5%;
+}
+#div_osn h1{
+ text-align: center;
+ padding: 2%;   
+}
+strong{
+color: #078b8b;
+}
+#kart1{
+  width: 400px;
+    height: 400px;
+    float: right;
+    background-image: url(hoschy.jpg);
+    background-size: cover;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------*/
+         /*@media*/
+/*-------------------*/
+
+@media (min-width: 1600px){
+#div_osn{
+      width: 78%;
+    height:auto;
+    margin-left: 4%;
+}
+    
+}
+
+/*-------------------*/
+/*НОутбук*/
+/*-------------------*/
+
+@media (min-width: 769px) and (max-width: 992px) {
+   
+}
+
+/*-------------------*/
+/*планшет*/
+/*-------------------*/
+
+@media (min-width: 577px) and (max-width: 768px) {  
+     #kart1{
+  width: 300px;
+    height: 300px;
+  float: none; 
+  margin: 0 auto;
+} 
+}
+
+/*-------------------*/
+/*МОБИЛЫ*/
+/*-------------------*/
+
+@media (min-width: 376px) and (max-width: 576px) {
+   #kart1{
+  width: 300px;
+    height: 300px;
+  float: none; 
+  margin: 0 auto;
+}
+}
+
+
+/*-------------------*/
+/*МОБИЛЫ вертикальные*/
+/*-------------------*/
+
+@media (min-width: 300px) and (max-width: 375px) {
+ #kart1{
+  width: 250px;
+    height: 250px;
+    float: none;
+}
+}
+
+
+
+

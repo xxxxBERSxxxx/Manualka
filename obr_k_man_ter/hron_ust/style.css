@@ -1,0 +1,119 @@
+h1, h2, h3, p, ul, li, details{
+ font-family: "Play", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+#div_osn{
+padding: 60px 3%;
+    
+}
+h1, h2{
+    padding-top: 5%;
+    text-align: center;
+    color: #02656d;
+}
+ul{
+    color: #02656d;
+    font-size: 20px;
+}
+li{
+    color: black;
+    font-size: 16px;
+}
+p{
+    text-align: justify;
+}
+#img_1{
+    width: 100%;
+    background-size: cover;
+    
+}
+#img_2{
+    width: 100%;
+   background-image: url(4.jpg);
+  background-position: center; background-size: cover; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------*/
+         /*@media*/
+/*-------------------*/
+
+@media (min-width: 1600px){
+#div_osn{
+     width: 80%;
+    height:auto;
+    margin-left: 4%;
+}
+  #img_2{
+    width: 100%;
+   background-image: url(4.jpg);
+  background-position: center; background-size: cover; 
+}  
+}
+
+/*-------------------*/
+/*НОутбук*/
+/*-------------------*/
+
+@media (min-width: 769px) and (max-width: 992px) {
+   
+}
+
+/*-------------------*/
+/*планшет*/
+/*-------------------*/
+
+@media (min-width: 577px) and (max-width: 768px) {  
+   
+}
+
+/*-------------------*/
+/*МОБИЛЫ*/
+/*-------------------*/
+
+@media (min-width: 376px) and (max-width: 576px) {
+  
+}
+
+
+/*-------------------*/
+/*МОБИЛЫ вертикальные*/
+/*-------------------*/
+
+@media (min-width: 300px) and (max-width: 375px) {
+ 
+}
+
+
+
+
