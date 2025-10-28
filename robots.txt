@@ -1,2 +1,3 @@
 User-Agent: *
-Host: https://www.zdorowdwig.ru
+Allow: /
+Sitemap: https://www.bersik.ru/sitemap.xml
