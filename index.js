@@ -1,87 +1,91 @@
-// Плавная прокрутка для навигационных ссылок
-document.addEventListener('DOMContentLoaded', function() {
-    // Плавная прокрутка только для якорных ссылок
-    const navLinks = document.querySelectorAll('.nav-link');
-    
-    navLinks.forEach(link => {
-        link.addEventListener('click', function(e) {
-            const href = this.getAttribute('href');
-            
-            // Если это якорная ссылка (начинается с #), обрабатываем плавную прокрутку
-            if (href.startsWith('#')) {
-                e.preventDefault();
-                const targetId = href;
-                const targetSection = document.querySelector(targetId);
-                
-                if (targetSection) {
-                    const offsetTop = targetSection.offsetTop - 80;
-                    window.scrollTo({
-                        top: offsetTop,
-                        behavior: 'smooth'
-                    });
-                }
-                
-                // Закрываем мобильное меню после клика
-                const offcanvas = document.getElementById('offcanvasDarkNavbar');
-                if (offcanvas) {
-                    const bsOffcanvas = bootstrap.Offcanvas.getInstance(offcanvas);
-                    if (bsOffcanvas) {
-                        bsOffcanvas.hide();
-                    }
-                }
-            }
-            // Для внешних ссылок (как "Партнеры") разрешаем стандартное поведение
-        });
+$(document).ready(function() {
+  $('.burger-menu').on('click', function(event) {
+    event.stopPropagation(); // Останавливаем всплытие события
+    $(this).toggleClass('active');
+    $('#nav_menu').slideToggle(300); // Анимация открытия/закрытия меню
+  });
+
+  $(document).on('click', function(event) {
+    if (!$(event.target).closest('.burger-menu, #nav_menu').length) {
+      if ($('#nav_menu').is(':visible')) {
+        $('.burger-menu').removeClass('active');
+        $('#nav_menu').slideUp(300); // Закрытие меню
+      }
+    }
+  });
+});
+
+
+
+//переход по иконкам
+$('#znachki1').on('click', function() {
+   window.location.href = 'https://wa.me/79038741898';
+});
+
+$('#znachki2').on('click', function() {
+   window.location.href = "https://t.me/+79038741898";
+});
+
+$('#znachki3').on('click', function() {
+   window.location.href = 'https://vk.com/id222603101';
+});
+
+
+//-------------
+//крутятся значки
+
+
+
+
+
+
+//див3 делаем увеличение текста
+$('.div31, .div32').hover(function(){
+    $(this).find('h2, p').css({
+        'transform': 'scale(1.05)',
+        'transition': 'all 0.2s'
     });
-
-    // Изменение навигации при скролле
-    window.addEventListener('scroll', function() {
-        const navbar = document.querySelector('.custom-navbar');
-        if (window.scrollY > 100) {
-            navbar.style.background = 'rgba(25, 25, 26, 0.98)';
-            navbar.style.padding = '0.5rem 0';
-        } else {
-            navbar.style.background = 'rgba(25, 25, 26, 0.95)';
-            navbar.style.padding = '1rem 0';
-        }
-    });
-
-    // Анимация появления элементов при скролле
-    const observerOptions = {
-        threshold: 0.1,
-        rootMargin: '0px 0px -50px 0px'
-    };
-
-    const observer = new IntersectionObserver(function(entries) {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.style.opacity = '1';
-                entry.target.style.transform = 'translateY(0)';
-            }
-        });
-    }, observerOptions);
-
-    // Наблюдаем за элементами для анимации
-    const animatedElements = document.querySelectorAll('.service-card, .stat-item, .trainer-card, .hero-buttons, section div, section h1, section h2, section h3, section h4, section p');
-    animatedElements.forEach(el => {
-        el.style.opacity = '0';
-        el.style.transform = 'translateY(30px)';
-        el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
-        observer.observe(el);
-    });
-
-    // Обработчики для кнопок
-    const buttons = document.querySelectorAll('.btn');
-    buttons.forEach(button => {
-        button.addEventListener('click', function() {
-            // Здесь можно добавить логику для открытия чатов
-            if (this.textContent.includes('WhatsApp')) {
-                // Открыть WhatsApp
-                window.open('https://wa.me/79996062616', '_blank');
-            } else if (this.textContent.includes('Telegram')) {
-                // Открыть Telegram
-                window.open('https://t.me/@xxxbersxxx', '_blank');
-            }
-        });
+}, function(){
+    $(this).find('h2, p').css({
+        'transform': 'scale(1)',
+        'transition': 'all 0.2s'
     });
 });
+
+
+//увеличение текста при наведении в навбвре
+$('nav ul li a').hover(
+    function() {
+        
+$(this).css({'transform':'scale(1.3)', 'transition':'all 0.3s','fontSize': '17px', 'overflow': 'hidden' });
+    },
+    function() {
+        
+$(this).css({'transform':'scale(1)'});
+    }
+);
+
+//увеличение текста при наведении
+$('#div4 p').hover(
+function() {
+$(this).css({'fontSize': '17px', 'transition': 'all 0.3s'});
+    },
+function() {
+$(this).css({'fontSize': '16px', 'transition': 'all 0.2s'});
+    }
+);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
